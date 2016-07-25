@@ -1,0 +1,8 @@
+1 最长回文子串manacher算法
+2 trie树
+3 KMP
+4 trie图
+5 DAG图DP
+6 01背包DP
+47 拓扑排序
+52 割边&割点

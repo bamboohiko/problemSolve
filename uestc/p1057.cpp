@@ -64,17 +64,6 @@ int main() {
         build(1,n,1);
         scanf("%d",&m);
         for (int i = 1;i <= m; i++) {
-            /*
-            int act;
-            scanf("%d",&act);
-            if (act) {
-                scanf("%d%d%d",&l,&r,&v);
-                updata(1,n,1,l,r,v);
-            } else {
-                scanf("%d%d",&l,&r);
-                printf("%d\n",query(1,n,1,l,r));
-            }
-            */
             scanf("%d%d%lld",&l,&r,&v);
             updata(1,n,1,l,r,v);
             printf("%lld\n",query(1,n,1,l,r));
